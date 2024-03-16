@@ -1,12 +1,10 @@
 {
   "name": "terranxt-backend",
   "version": "1.0.0",
-  
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-    
   },
   "keywords": [],
   "author": "",
@@ -19,5 +17,4 @@
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   }
-  
 }
