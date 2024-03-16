@@ -1,13 +1,12 @@
 {
   "name": "terranxt-backend",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=18.18.0 <19.0.0"
-  },
+  
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon  server.js"
+    "start": "node server.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -20,4 +19,5 @@
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   }
+  
 }
